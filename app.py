@@ -12,7 +12,7 @@ st.set_page_config(page_title="Telecom Churn Analysis", layout="wide")
 # ---------- Load Data ----------
 @st.cache_data
 def load_data():
-    return pd.read_csv("data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+    return pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
 data = load_data()
 
@@ -98,3 +98,4 @@ if st.button("Predict Churn"):
 
     pred = model.predict(new_df)[0]
     st.success("🔴 Customer is likely to CHURN" if pred==1 else "🟢 Customer will STAY")
+
