@@ -47,14 +47,7 @@ X = df.drop("Churn_Yes", axis=1)
 y = df["Churn_Yes"]
 
 # ---------- Train or Load Model ----------
-model_path = "models/churn_model.pkl"
-if not os.path.exists(model_path):
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    model = LogisticRegression(max_iter=1000)
-    model.fit(X_train, y_train)
-    pickle.dump(model, open(model_path, "wb"))
-else:
-    model = pickle.load(open(model_path, "rb"))
+#
 
 # ---------- Model Accuracy ----------
 y_pred = model.predict(X)
@@ -98,4 +91,5 @@ if st.button("Predict Churn"):
 
     pred = model.predict(new_df)[0]
     st.success("🔴 Customer is likely to CHURN" if pred==1 else "🟢 Customer will STAY")
+
 
