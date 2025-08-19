@@ -5,7 +5,7 @@ It includes *exploratory data analysis (EDA), **visualizations, a **logistic reg
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 - *Data Exploration*
   - Preview dataset, clean missing values, encode categorical features
 - *Visualization*
@@ -22,12 +22,12 @@ It includes *exploratory data analysis (EDA), **visualizations, a **logistic reg
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 telecom-churn-analysis/ │── app.py                  # Main Streamlit App │── requirements.txt        # Python dependencies │── README.md               # Project Documentation │── LICENSE                 # Open-source license (MIT) │── data/ │     └── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dataset │── models/ │     └── churn_model.pkl   # Saved Logistic Regression model (auto-created)
 
 ---
 
-## 📊 Dataset
+# 📊 Dataset
 - *Source:* [Kaggle – Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)  
 - *Rows:* 7043  
 - *Columns:* 21  
@@ -41,18 +41,19 @@ telecom-churn-analysis/ │── app.py                  # Main Streamlit App �
 
 ---
 
-## ▶ Run Locally
+# ▶ Run Locally
 Clone this repository and run the app:
 
 ```bash
 git clone <your-repo-link>
 cd telecom-churn-analysis
 pip install -r requirements.txt
-streamlit run app.py 
+streamlit run app.py
+ ```
 
----
 
-🌐 Deployment (Streamlit Cloud)
+
+# 🌐 Deployment (Streamlit Cloud)
 
 1. Push this project to GitHub
 
@@ -73,7 +74,7 @@ streamlit run app.py
 
 ---
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
 Python – Core programming
 
@@ -88,8 +89,7 @@ Streamlit – Interactive web app
 
 
 ---
-
-📈 Example Output
+# 📈 Example Output
 
 EDA Charts
 
@@ -109,7 +109,7 @@ Output: Churn / Not Churn
 
 ---
 
-📜 License
+# 📜 License
 
 This project is licensed under the MIT License – free to use and modify.
 See the LICENSE file for details.
@@ -122,4 +122,5 @@ See the LICENSE file for details.
 Rajkumar Suryavanshi
 📧 Email: krajsuryaaa@gmail.copm
 💼 LinkedIn: http://www.linkedin.com/in/rajkumar-suryavanshi-963703254
+
 📂 GitHub: https://github.com/Suryavanshii
